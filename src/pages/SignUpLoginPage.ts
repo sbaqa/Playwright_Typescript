@@ -5,9 +5,6 @@ import { Constants } from '../helpers/constants.ts';
 
 export class SignUpLoginPage extends BaseWidget {
 
-  // page: Page;
-  // private widget: BaseWidget;
-
   constructor(page: Page) {
     super(page)
   }
