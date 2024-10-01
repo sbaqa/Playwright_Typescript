@@ -29,18 +29,3 @@ test.describe('TopNavigation tests', () => {
     await contactUsFormFilled.assertContactUsFormSuccessStepIsDisplayed();
   });
 })
-
-
-
-
-
-//   await page.locator('.navbar-nav').getByRole('link', { name: 'Роздуми на тему' }).click();
-//   await page.locator('#post-6537').getByRole('link', { name: 'Continue reading...' }).click();
-//   await page.getByRole('link', { name: 'Головна' }).click();
-//   await page.getByRole('button').nth(1).click();
-//   await page.locator('#header-bottom').getByRole('textbox').click();
-//   await page.locator('#header-bottom').getByRole('textbox').press('CapsLock');
-//   await page.locator('#header-bottom').getByRole('textbox').fill('РНБО');
-//   await page.locator('#header-bottom').getByRole('textbox').press('Enter');
-//   await page.getByRole('link', { name: 'Гендерне кріпосне право від РНБО ?' }).click();
-//   await page.getByText('Демократія, яку ми заслужили і вона тепер поза законом').click({clickCount: 3});
