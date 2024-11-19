@@ -5,12 +5,6 @@ import { GeneralLocators } from '../src/locators/generalLocators.ts';
 
 let homePage: HomePage; // Declare the homePage variable outside the test block
 
-test.beforeEach(async ({ page }) => {
-  await page.goto(GeneralLocators.expectedHomePageUrl)
-  homePage = new HomePage(page)  // Initialize the HomePage object
-  await homePage.acceptCookies()
-});
-
 test.describe('TopNavigation tests', () => {
 
   test.beforeEach(async ({ page }) => {
