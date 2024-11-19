@@ -13,9 +13,9 @@ test.beforeEach(async ({ page }) => {
 
 test.describe('TopNavigation tests', () => {
   
-  test("Open 'Signup / Login' page", async () => {
-    let SignUpLoginPage = await homePage.navigateToSignUpLoginPage();
-    SignUpLoginPage.assertSignUpLoginPageIsDisplayed();
+  test("Open 'Login' page", async () => {
+    let loginPage = await homePage.navigateToLoginPage();
+    loginPage.assertLoginPageIsDisplayed();
   });
 
   test.fail("Fill 'Contact us' form: test expected to fail", async () => {
