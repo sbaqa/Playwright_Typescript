@@ -10,7 +10,6 @@ test.describe('TopNavigation tests', () => {
   test.beforeEach(async ({ page }) => {
   await page.goto(GeneralLocators.expectedHomePageUrl)
   homePage = new HomePage(page)  // Initialize the HomePage object
-  // await homePage.acceptCookies()
   });
   
   test("Open 'Login' page", async () => {
