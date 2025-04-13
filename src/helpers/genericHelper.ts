@@ -1,8 +1,11 @@
+import { Constants } from "./constants";
+
 export class GenericHelpers {
 
     static generateRandomString(length: number): string {
-        const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        const characters = Constants.stringGenerator;
         let result = '';
+        
         for (let i = 0; i < length; i++) {
             result += characters.charAt(Math.floor(Math.random() * characters.length));
         }
