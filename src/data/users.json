@@ -1,0 +1,15 @@
+{
+  "_comment": "This file contains user credentials for testing purposes.",
+  "_comment2": "It is recommended to use environment variables or a secure vault for sensitive information in production.",
+  "_comment3": "In project this file should be added to .gitignore to avoid exposing sensitive data.",
+  "_comment4": "This is a sample file and should not be used in production without proper security measures.",
+    
+  "basicUser": {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+  "lockedOutUser": {
+      "username": "locked_out_user",
+      "password": "secret_sauce"
+    }
+  }
