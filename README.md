@@ -28,3 +28,5 @@ This repository contains automated tests written using **Playwright** with **Typ
 
 - All tests run: ``` bash npx playwright test ```
 - Run tests with a specific tag or file:  ``` bash npx playwright test tests/example.spec.ts ```
+- Run with UI for better debugging:  ``` bash npx playwright test --ui ```
+
