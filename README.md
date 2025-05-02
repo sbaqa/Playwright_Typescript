@@ -26,4 +26,11 @@ This repository contains automated tests written using **Playwright** with **Typ
 
 2. **Running Tests**
 
-all tests   ``` bash npx playwright test ```
+- All tests run: ``` bash npx playwright test ```
+- Run tests with a specific tag or file:  ``` bash npx playwright test tests/example.spec.ts
+ ```
+
+bash
+Copy
+Edit
+
