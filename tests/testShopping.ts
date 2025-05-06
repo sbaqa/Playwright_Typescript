@@ -36,7 +36,7 @@ test("Login as basic user add 2 products to cart", async ({webPage}) => {
 
 });
 
-test("Just Login and add product to cart", async () => {
+test("Just Login and add product to cart, no POM in this test", async () => {
     const browser = await chromium.launch();
     const context = await browser.newContext();
     const page = await context.newPage();
@@ -74,7 +74,7 @@ test("Just Login and add product to cart", async () => {
     await browser.close();
   });
 
-test('adding cart and verify popup', async () => {
+test('adding cart and verify popup, no POM in this test', async () => {
     // open the browser and navigate to website
     const browser = await chromium.launch();
     const context = await browser.newContext();
